@@ -1,0 +1,80 @@
+{
+	"pages": [
+		{
+			"path": "pages/phone/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/notice/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/statistic/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/customer/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+  "tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#37A2FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height":"60px",
+	    "list": [
+	       {
+	         "pagePath": "pages/phone/index",
+	         "text": "拨号",
+	         "iconPath": "/static/tabBar/phone.png",
+	         "selectedIconPath": "/static/tabBar/phone-active.png"
+	       },
+		   {
+		     "pagePath": "pages/customer/index",
+		     "text": "客户",
+		     "iconPath": "/static/tabBar/customer.png",
+		     "selectedIconPath": "/static/tabBar/customer-active.png"
+		   },
+		   {
+		     "pagePath": "pages/notice/index",
+		     "text": "通知",
+		     "iconPath": "/static/tabBar/notice.png",
+		     "selectedIconPath": "/static/tabBar/notice-active.png"
+		   },
+		   {
+		     "pagePath": "pages/statistic/index",
+		     "text": "统计",
+		     "iconPath": "/static/tabBar/statistic.png",
+		     "selectedIconPath": "/static/tabBar/statistic-active.png"
+		   },
+	       {
+	         "pagePath": "pages/mine/index",
+	         "text": "我的",
+	         "iconPath": "static/tabBar/mine.png",
+	         "selectedIconPath": "static/tabBar/mine-active.png"
+	       }]
+	}
+}

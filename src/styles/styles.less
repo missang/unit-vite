@@ -1,0 +1,113 @@
+body {
+  background-color: @bg;
+  font-size: 28rpx;
+  color:@text-primary;
+  font-family: PingFang SC,  Helvetica Neue, Helvetica, sans-serif;
+}
+
+div,
+view,
+scroll-view,
+swiper,
+button,
+input,
+textarea,
+label,
+navigator,
+image {
+  box-sizing: border-box;
+}
+
+textarea::-webkit-input-placeholder,textarea:-moz-placeholder,textarea::-moz-placeholder,textarea:-ms-input-placeholder,input::-webkit-input-placeholder,input:-moz-placeholder,input::-moz-placeholder,input:-ms-input-placeholder {
+    color: @placeholder;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.flex-box-x {
+	flex-direction: row;
+	display: -webkit-flex
+}
+
+.flex-box-x>.col-xs-x {
+	flex: 1
+}
+
+
+.flex-box-y {
+	flex-direction: column;
+	display: -webkit-flex
+}
+
+.flex-box-y>.col-xs-y {
+	flex: 1
+}
+
+.flex-x-center {
+	justify-content: center;
+	display: -webkit-flex;
+	text-align: center
+}
+
+.flex-y-center {
+	align-items: center;
+	display: -webkit-flex
+}
+
+.flex-xy-center {
+	justify-content: center;
+	align-items: center;
+	display: -webkit-flex;
+}
+
+.flex-top-center {
+	align-items: flex-start;
+	display: -webkit-flex;
+}
+
+.flex-botttom-center {
+	align-items: flex-end;
+	display: -webkit-flex;
+}
+
+.ellipsis-1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.ellipsis-2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+
+.flex-wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pd-x-30{
+	padding: 0 30rpx;
+}
+.pd-y-30{
+	padding:  30rpx 0;
+}
+.pd-xy-30{
+	padding:  30rpx;
+}
+.mg-x-30{
+	margin: 0 30rpx;
+}
+.mg-y-30{
+	margin:  30rpx 0;
+}
+.mg-xy-30{
+	margin:  30rpx;
+}
